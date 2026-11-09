@@ -1,0 +1,15 @@
+SELECT nome, cidade, estado FROM clientes WHERE estado = 'SP' ORDER BY nome;
+SELECT * FROM produtos;
+SELECT DISTINCT cidade FROM clientes;
+SELECT * FROM clientes LIMIT 2;
+SELECT * FROM clientes WHERE cidade = "São Paulo";
+SELECT * FROM produtos WHERE preco != 120;
+SELECT * FROM clientes WHERE idade > 18;
+SELECT * FROM produtos WHERE estoque < 15;
+SELECT * FROM clientes WHERE cidade = 'São Paulo' AND estado = 'SP';
+SELECT * FROM clientes WHERE cidade = 'SP' OR cidade = 'RJ';
+SELECT * FROM clientes WHERE NOT cidade = 'SP';
+SELECT * FROM produtos WHERE preco BETWEEN 10 AND 1000;
+SELECT * FROM clientes WHERE estado IN ('SP', 'RJ', 'BH');
+SELECT * FROM clientes WHERE nome LIKE 'M%';
+SELECT * FROM clientes WHERE telefone IS NULL;

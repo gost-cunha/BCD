@@ -10,5 +10,7 @@ INSERT INTO produtos (nome, preco, estoque) VALUES
 
 UPDATE produtos SET estoque = 8 WHERE nome LIKE 'iPhone 14';
 
+DELETE FROM clientes WHERE nome = 'Alex Osvaldo';
+
 SELECT * FROM clientes WHERE cidade = 'São Paulo' ORDER BY nome;
 SELECT * FROM produtos WHERE preco BETWEEN 100 AND 1000;
